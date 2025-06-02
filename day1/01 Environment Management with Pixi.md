@@ -55,9 +55,9 @@ With Pixi, environments are defined via a `pixi.toml` file. This ensures that yo
    5. Start a Pixi shell
    6. Verify python is available
    
-   ```bash
-   python --version
-   ```
+      ```bash
+      python --version
+      ```
 
    7. Verify pip is available
 
@@ -67,7 +67,7 @@ With Pixi, environments are defined via a `pixi.toml` file. This ensures that yo
 
 In this section, you'll learn how to install Python packages into a Pixi-managed environment. Pixi supports two main ways of adding packages:
 
-* **Conda-style installation** (via `conda-forge`): Fast, reliable, and reproducible.
+* **Conda-style installation** (via `conda-forge`): By default.
 * **PyPI-style installation** (via `pip`): Useful for packages not available on `conda-forge`.
 
 You can combine both methods in the same environment. This gives you access to a wide range of scientific and general-purpose Python tools.
@@ -86,24 +86,20 @@ You can combine both methods in the same environment. This gives you access to a
 **Exercises**
 
 1. Add `numpy`, `matplotlib`
-2. Check that they’re listed:
-3. Verify they are installed:
-
-```bash
-pixi info
-```
-
-2. Install `streamlit` with `--pypi`
+2. Verify they are installed:
+   ```bash
+   pixi info
+   ```
+3. Install `streamlit` with `--pypi`
    ```bash
    pixi add --pypi streamlit
    ```
-3. Verify `streamlit` is installed
-4. Install `pandas` with `--pypi` and verify it is installed
-5. Remove `pandas` and verify that it is gone
-
-```bash
-pixi remove --pypi pandas
-```
+4. Verify `streamlit` is installed
+5. Install `pandas` with `--pypi` and verify it is installed
+6. Remove `pandas` and verify that it is gone
+   ```bash
+   pixi remove --pypi pandas
+   ```
 
 ---
 
