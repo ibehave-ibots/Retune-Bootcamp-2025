@@ -15,6 +15,10 @@ Pixi is available for all major operating systems and provides a consistent way 
 ### Installation
 
 1. [Installation instructions](https://pixi.sh/latest/#installation)
+   1. If you have a windows machine
+   ```bash
+   winget install prefix-dev.pixi
+   ```
 2. Testing installation
 ```bash
 pixi --version
