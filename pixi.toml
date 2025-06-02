@@ -2,7 +2,7 @@
 authors = ["Sangeetha Nandakumar <98574336+sangeethankumar@users.noreply.github.com>"]
 channels = ["conda-forge"]
 name = "Retune_Bootcam_2025"
-platforms = ["win-64"]
+platforms = ["win-64", "linux-64", "osx-64", "osx-arm64"]
 version = "0.1.0"
 
 [tasks]
