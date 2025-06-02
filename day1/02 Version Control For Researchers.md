@@ -4,6 +4,42 @@ This lesson covers the most essential operations in Git for everyday use: **stag
 
 ---
 
+## Installation: Git
+
+Before using Git, you need to install it on your system. Installation methods vary depending on your operating system. Here are the links for installation instructions on the official website.
+
+#### macOS
+
+[Installation instructions: macOS](https://git-scm.com/downloads/mac)
+
+#### Linux
+
+[Installation instructions: Linux](https://git-scm.com/downloads/linux)
+
+#### Windows
+
+[Installation instructions: Windows](https://git-scm.com/downloads/win)
+
+#### Configuring Identity for Git
+
+Before using Git on your system, the first step is to configure your Git username and email address. This ensures that Git associates your identity with every commit you make.
+
+In the terminal, 
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+```
+
+## GitHub Setup instructions 
+
+### Create a GitHub Account  
+
+1. Go to [GitHub Sign Up](https://github.com/signup).  
+2. Fill in the required details.  
+3. Verify your email and complete the account setup.  
+
+---
+
 ## Section 1: Tracking Changes (Staging)
 
 Git helps track changes in your project by monitoring file modifications. You can check the status of your changes, add files to the staging area, and unstage them if needed.
