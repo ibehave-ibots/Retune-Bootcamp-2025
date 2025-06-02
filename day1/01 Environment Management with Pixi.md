@@ -12,7 +12,7 @@ In this unit, we will learn how to use **Pixi** to manage packages and environme
 
 Pixi is available for all major operating systems and provides a consistent way to define, reproduce, and run development environments. It can be installed quickly and works seamlessly with the `conda-forge` ecosystem.
 
-### Installation Instructions
+### Installation
 
 1. [Installation instructions](https://pixi.sh/latest/#installation)
 2. Testing installation
