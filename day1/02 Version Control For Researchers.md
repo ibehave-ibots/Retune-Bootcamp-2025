@@ -155,7 +155,7 @@ Clone an existing GitHub repository to your local system to begin working on it.
 
 1. Cloning a public repository
 
-   * Note the [workshop GitHub repo](https://github.com/ibehave-ibots/iBOTS-Essential-Computer-Tools-for-Researchers-Workshop).
+   * Note the [workshop GitHub repo](https://github.com/ibehave-ibots/Retune-Bootcamp-2025.git).
    * Run `git clone <repo-url>`.
    * Open the cloned folder and verify files.
 
