@@ -1,0 +1,16 @@
+[workspace]
+authors = ["Sangeetha Nandakumar <98574336+sangeethankumar@users.noreply.github.com>"]
+channels = ["conda-forge"]
+name = "Retune_Bootcam_2025"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.12.*"
+numpy = ">=2.2.6,<3"
+matplotlib = ">=3.10.3,<4"
+pandas = ">=2.2.3,<3"
+seaborn = ">=0.13.2,<0.14"
+pyocclient = ">=0.6,<0.7"

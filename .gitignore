@@ -1,1 +1,4 @@
 *solution*
+# pixi environments
+.pixi
+*.egg-info
