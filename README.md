@@ -11,6 +11,13 @@ In this bootcamp, we will learn
 - Environment Management
 - Version Control
 
+##### Day 2: Intro to Scientific Programming In Python 
+  
+- Numpy
+- Numpy and Matplotlib for images
+- Making subplots
+- Pandas
+
 
 **Instructor**: Dr. Sangeetha Nandakumar ([iBOTS](https://ibehave.nrw/ibots-platform/about-ibots/))
 
