@@ -20,9 +20,9 @@ Pixi is available for all major operating systems and provides a consistent way 
    winget install prefix-dev.pixi
    ```
 2. Testing installation
-```bash
-pixi --version
-```
+   ```bash
+   pixi --version
+   ```
 
 ---
 
