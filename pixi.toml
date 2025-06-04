@@ -16,6 +16,8 @@ seaborn = ">=0.13.2,<0.14"
 pyocclient = ">=0.6,<0.7"
 pip = ">=25.1.1,<26"
 jupyterlab = ">=4.4.3,<5"
+statannotations = ">=0.7.1,<0.8"
+scikit-learn = ">=1.6.1,<2"
 
 [pypi-dependencies]
 jupyterlab-rise = ">=0.43.1, <0.44"
